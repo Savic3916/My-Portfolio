@@ -23,27 +23,26 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  JavaScript, Typescript, React Native, Expo, and Firebase{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — and I enjoy working on frontend stacks.
               <br />
               <br />
               My key areas of interest include developing
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Mobile Applications,{" "}
                 </b>
               </i>
               and exploring new ways to bridge on-chain and off-chain systems.
               <br />
               <br />
               Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              <b className="purple"> Expo </b> and modern frameworks like{" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">React Native.</b> 
               </i>
             </p>
           </Col>

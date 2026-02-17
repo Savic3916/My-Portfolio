@@ -30,7 +30,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> AKPAN VICTOR </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -61,7 +61,7 @@ function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Savic3916"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -71,7 +71,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://x.com/I_am_SAVIC"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -79,7 +79,7 @@ function Home() {
                   <AiOutlineTwitter />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/soumyajit4419/"
                   target="_blank"
@@ -88,10 +88,10 @@ function Home() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/i_am_savic_/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
