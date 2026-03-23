@@ -23,7 +23,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, Typescript, React Native, Expo, and Firebase{" "}
+                  Javascript, Typescript, React Native, Expo, and Firebase{" "}
                 </b>
               </i>
               — and I enjoy working on frontend stacks.

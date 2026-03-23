@@ -85,7 +85,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Tailwind} alt="tailwind" />
-        <div className="tech-icons-text">Tailwind CSS</div>
+        <div className="tech-icons-text"> Native Wind</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Firebase} alt="firebase" />
