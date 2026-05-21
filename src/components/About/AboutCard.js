@@ -12,8 +12,8 @@ function AboutCard() {
             from <span className="purple">Uyo, Nigeria</span>.
             <br />
             I’m currently working as a{" "}
-            <span className="purple">Mobile Developer</span> at{" "}
-            <span className="purple">Pineapp Solutions</span>.
+            <span className="purple">Mobile Developer</span> for{" "}
+            <span className="purple">the Abia State Government & Anora.Dev</span>.
             <br />I hold an B.Sc. in{" "}
             <span className="purple">Computer Science</span> from the{" "}
             <span className="purple">University of Uyo</span>.
