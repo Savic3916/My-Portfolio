@@ -8,6 +8,7 @@ import driver from "../../Assets/Projects/pbgdriver.png";
 import logistics from "../../Assets/Projects/pbglogistics.png";
 import qartt from "../../Assets/Projects/qartt.png";
 import qarttbusiness from "../../Assets/Projects/qarttbusiness.png";
+import psa from "../../Assets/Projects/psa.png";
 
 function Projects() {
   return (
@@ -79,10 +80,18 @@ function Projects() {
               imgPath={qarttbusiness}
               isBlog={false}
               title="Qartt Business (iOS & Android)"
-              description="Qartt Business is a cross-platform mobile application that empowers merchants and small businesses to create, manage, and grow their online storefronts on the Qartt marketplace. Built with React Native for iOS and Android, the app enables sellers to upload products with multiple images and variants, manage pricing and inventory, receive and process customer orders, and monitor their store's activity in real time. With secure authentication, a modern and responsive user interface, and seamless product and order management, Qartt Business provides everything merchants need to efficiently run their businesses and sell authentic African products to customers around the world."
-              demoLink="https://apps.apple.com/ng/app/qartt-business/id6759817660"
+              description="Qartt Business is a cross-platform mobile app built with React Native that helps merchants manage their online stores. It enables sellers to upload products, manage inventory and pricing, process orders, and track store activity through a secure, user-friendly interface."              demoLink="https://apps.apple.com/ng/app/qartt-business/id6759817660"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={psa}
+              isBlog={false}
+              title="PS Attendance"
+              description="PS Attendance is a mobile application designed to streamline attendance management for public service employees in Abia State, Nigeria. The app enables authorized employees to record their daily attendance through workplace check-in and check-out, helping improve accountability and maintain accurate attendance records. Built with React Native and Expo, the application provides a simple, user-friendly interface and supports location-based verification to help validate attendance where required."
+              demoLink="https://play.google.com/store/apps/details?id=com.savic3916.Attendanceapp&hl=en"
+            /> 
+            </Col>
         </Row>
       </Container>
     </Container>
