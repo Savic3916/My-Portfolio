@@ -13,7 +13,12 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Akpan Victor</h3>
+          <h3>
+            Akpan Victor ·{" "}
+            <a href="mailto:savic3916@gmail.com" style={{ color: "white" }}>
+              savic3916@gmail.com
+            </a>
+          </h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} AV</h3>
