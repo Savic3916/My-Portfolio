@@ -15,10 +15,16 @@ function Github() {
         Days I <strong className="purple">Code</strong>
       </h1>
       <GitHubCalendar
-        username="soumyajit4419"
+        username="Savic3916"
         blockSize={30}
         blockMargin={10}
-        color="#c084f5"
+        theme={{
+          level0: "#3a2556",
+          level1: "#6b3fa0",
+          level2: "#9b59d0",
+          level3: "#c084f5",
+          level4: "#e3c4ff",
+        }}
         fontSize={20}
       />
     </Row>
