@@ -8,6 +8,7 @@ import driver from "../../Assets/Projects/pbgdriver.png";
 import logistics from "../../Assets/Projects/pbglogistics.png";
 import qartt from "../../Assets/Projects/qartt.png";
 import qarttbusiness from "../../Assets/Projects/qarttbusiness.png";
+import sales from "../../Assets/Projects/pbgsales.png";
 import psa from "../../Assets/Projects/psa.png";
 
 const projects = [
@@ -54,6 +55,7 @@ const projects = [
     demoLabel: "Google Play",
   },
   {
+    imgPath: sales,
     company: "Pineapp Solutions · grohh suite · Google Play",
     title: "grohh Sales (POS)",
     description:

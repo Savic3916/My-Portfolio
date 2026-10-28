@@ -10,7 +10,7 @@ function ProjectCards(props) {
       {props.imgPath && (
         <Card.Img variant="top" src={props.imgPath} alt={props.title} />
       )}
-      <Card.Body>
+      <Card.Body className="project-card-body">
         {props.company && <div className="project-company">{props.company}</div>}
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
@@ -27,6 +27,7 @@ function ProjectCards(props) {
           </div>
         )}
 
+        <div className="project-actions">
         {props.ghLink && (
           <Button
             variant="primary"
@@ -50,6 +51,7 @@ function ProjectCards(props) {
             {props.demoLabel || "Live App"}
           </Button>
         )}
+        </div>
       </Card.Body>
     </Card>
   );

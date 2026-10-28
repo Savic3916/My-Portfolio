@@ -949,3 +949,20 @@ button:focus {
 .project-tags {
   margin-bottom: 16px;
 }
+
+.project-card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card-body .card-text {
+  flex-grow: 1;
+}
+
+.project-actions {
+  margin-top: auto;
+}
+
+.resume-page {
+  margin-bottom: 24px;
+}
