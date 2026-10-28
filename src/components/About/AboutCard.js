@@ -8,19 +8,21 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Akpan Victor</span>{" "}
-            from <span className="purple">Uyo, Nigeria</span>.
+            Hi, I’m <span className="purple">Akpan Victor</span>, a{" "}
+            <span className="purple">React Native engineer</span> based in{" "}
+            <span className="purple">Nigeria</span> and open to remote roles.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Mobile Developer</span> for{" "}
-            <span className="purple">the Abia State Government & Anora.Dev</span>.
-            <br />I hold an B.Sc. in{" "}
+            I currently build mobile apps for the{" "}
+            <span className="purple">Abia State Government</span> and{" "}
+            <span className="purple">Anora.Dev</span>, after leading mobile at{" "}
+            <span className="purple">Pineapp Solutions</span>.
+            <br />I hold a B.Sc. in{" "}
             <span className="purple">Computer Science</span> from the{" "}
             <span className="purple">University of Uyo</span>.
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            I work remote-first and async, closely with product, design and
+            backend teams from spec to release. Outside of coding:
           </p>
 
           <ul>
