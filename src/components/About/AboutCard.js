@@ -13,8 +13,9 @@ function AboutCard() {
             <span className="purple">Nigeria</span> and open to remote roles.
             <br />
             I currently build mobile apps for the{" "}
-            <span className="purple">Abia State Government</span> and{" "}
-            <span className="purple">Anora.Dev</span>, after leading mobile at{" "}
+            <span className="purple">Abia State Government</span>. Before that I
+            built the Qartt apps at <span className="purple">Anora.Dev</span>{" "}
+            and led mobile at{" "}
             <span className="purple">Pineapp Solutions</span>.
             <br />I hold a B.Sc. in{" "}
             <span className="purple">Computer Science</span> from the{" "}
