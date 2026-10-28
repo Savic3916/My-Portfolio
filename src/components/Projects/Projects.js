@@ -14,59 +14,59 @@ import psa from "../../Assets/Projects/psa.png";
 const projects = [
   {
     imgPath: qartt,
-    company: "Anora.Dev · Google Play & App Store",
+    company: "Anora.Dev · Qartt",
     title: "Qartt (Buyer)",
     description:
       "Cross-border marketplace for US shoppers to buy authentic African products without the high international fees. I built the shopping and ordering flows, authentication and navigation, and ran App Store releases end to end.",
-    tags: ["React Native", "TypeScript", "Expo Router", "REST APIs"],
+    tags: ["React Native", "TypeScript", "Expo Router"],
     demoLink: "https://play.google.com/store/apps/details?id=me.qartt.buyer&hl=en",
     demoLabel: "Google Play",
   },
   {
     imgPath: qarttbusiness,
-    company: "Anora.Dev · Google Play & App Store",
+    company: "Anora.Dev · Qartt",
     title: "Qartt Business (Vendor)",
     description:
       "Vendor app for merchants in Nigeria to upload products, manage inventory and pricing, process orders and track store activity. I built the vendor workflows and order-management features.",
-    tags: ["React Native", "TypeScript", "Expo", "REST APIs"],
+    tags: ["React Native", "TypeScript", "Expo"],
     demoLink: "https://apps.apple.com/ng/app/qartt-business/id6759817660",
     demoLabel: "App Store",
   },
   {
     imgPath: psa,
-    company: "Abia State Government · Google Play",
+    company: "Abia State Government",
     title: "PS Attendance",
     description:
       "Attendance management for public service employees in Abia State: morning check-in, evening sign-out and daily records. Location verification means attendance can only be logged from an authorised workplace, and access is restricted to verified staff.",
-    tags: ["React Native", "Expo", "Geolocation", "Role-based access"],
+    tags: ["React Native", "Expo", "Geolocation"],
     demoLink:
       "https://play.google.com/store/apps/details?id=com.savic3916.Attendanceapp&hl=en",
     demoLabel: "Google Play",
   },
   {
     imgPath: customer,
-    company: "Pineapp Solutions · grohh suite · Google Play",
+    company: "Pineapp Solutions · grohh suite",
     title: "grohh MyMarket (Customer)",
     description:
       "Customer app where shoppers browse products and services from businesses in the grohh ecosystem, place orders, request delivery, pay and get discounts, with live order tracking and push alerts.",
-    tags: ["React Native", "Firebase", "FCM", "React Query"],
+    tags: ["React Native", "Firebase", "FCM"],
     demoLink:
       "https://play.google.com/store/apps/details?id=com.pinebusinessgrow.pgbcustomer&hl=en",
     demoLabel: "Google Play",
   },
   {
     imgPath: sales,
-    company: "Pineapp Solutions · grohh suite · Google Play",
+    company: "Pineapp Solutions · grohh suite",
     title: "grohh Sales (POS)",
     description:
       "Point-of-sale app for in-store sales with Nomba POS terminal integration, streamlining payments and reducing manual processing errors. Orders and inventory sync in real time with the rest of the suite.",
-    tags: ["React Native", "Nomba POS", "Firebase", "Redux Toolkit"],
+    tags: ["React Native", "Nomba POS", "Firebase"],
     demoLink: "https://play.google.com/store/apps/details?id=com.pbg.sales",
     demoLabel: "Google Play",
   },
   {
     imgPath: kitchen,
-    company: "Pineapp Solutions · grohh suite · Google Play",
+    company: "Pineapp Solutions · grohh suite",
     title: "grohh Storerunner (Kitchen)",
     description:
       "Real-time kitchen app: staff see incoming orders, approve them, mark them Ready and finally Completed on pickup. Built on Firebase sync to handle 200–800+ orders a day.",
@@ -77,7 +77,7 @@ const projects = [
   },
   {
     imgPath: driver,
-    company: "Pineapp Solutions · grohh suite · Google Play",
+    company: "Pineapp Solutions · grohh suite",
     title: "grohh Driver",
     description:
       "Delivery app for drivers to receive requests, view routes and update delivery status in real time, connected to the Logistics app so businesses can track every delivery.",
@@ -88,7 +88,7 @@ const projects = [
   },
   {
     imgPath: logistics,
-    company: "Pineapp Solutions · grohh suite · Google Play",
+    company: "Pineapp Solutions · grohh suite",
     title: "grohh Logistics",
     description:
       "Fleet management app for logistics business owners to manage drivers, vehicles, freight and deliveries in real time, working together with the Driver app.",

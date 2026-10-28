@@ -966,3 +966,54 @@ button:focus {
 .resume-page {
   margin-bottom: 24px;
 }
+
+/* Project card layout: uniform image area, left-aligned content */
+.project-card-view .card-img-top,
+.project-img-placeholder {
+  height: 220px;
+  width: 100%;
+}
+
+.project-card-view .card-img-top {
+  object-fit: contain;
+}
+
+.project-img-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 1.8em;
+  font-weight: 600;
+  text-align: center;
+  color: #e6d6f3;
+  background: linear-gradient(135deg, #3a2556, #6b3fa0);
+  border-radius: 10px 10px 0 0;
+}
+
+.project-card-body {
+  text-align: left;
+}
+
+.project-card-body .card-title {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  text-align: left;
+  font-size: 0.95em;
+  line-height: 1.55;
+}
+
+.project-company {
+  min-height: 1.2em;
+}
+
+.project-tags {
+  margin-top: 4px;
+}
+
+.project-tags .tech-tag {
+  white-space: nowrap;
+}

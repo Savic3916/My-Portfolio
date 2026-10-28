@@ -15,7 +15,7 @@ function AboutCard() {
             I currently build mobile apps for the{" "}
             <span className="purple">Abia State Government</span>. Before that I
             built the Qartt apps at <span className="purple">Anora.Dev</span>{" "}
-            and led mobile at{" "}
+            and led mobile team at{" "}
             <span className="purple">Pineapp Solutions</span>.
             <br />I hold a B.Sc. in{" "}
             <span className="purple">Computer Science</span> from the{" "}
