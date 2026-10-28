@@ -54,11 +54,13 @@ const projects = [
     demoLabel: "Google Play",
   },
   {
-    company: "Pineapp Solutions · grohh suite",
+    company: "Pineapp Solutions · grohh suite · Google Play",
     title: "grohh Sales (POS)",
     description:
       "Point-of-sale app for in-store sales with Nomba POS terminal integration, streamlining payments and reducing manual processing errors. Orders and inventory sync in real time with the rest of the suite.",
     tags: ["React Native", "Nomba POS", "Firebase", "Redux Toolkit"],
+    demoLink: "https://play.google.com/store/apps/details?id=com.pbg.sales",
+    demoLabel: "Google Play",
   },
   {
     imgPath: kitchen,
