@@ -10,6 +10,98 @@ import qartt from "../../Assets/Projects/qartt.png";
 import qarttbusiness from "../../Assets/Projects/qarttbusiness.png";
 import psa from "../../Assets/Projects/psa.png";
 
+const projects = [
+  {
+    imgPath: qartt,
+    company: "Anora.Dev · Google Play & App Store",
+    title: "Qartt (Buyer)",
+    description:
+      "Cross-border marketplace for US shoppers to buy authentic African products without the high international fees. I built the shopping and ordering flows, authentication and navigation, and ran App Store releases end to end.",
+    tags: ["React Native", "TypeScript", "Expo Router", "REST APIs"],
+    demoLink: "https://play.google.com/store/apps/details?id=me.qartt.buyer&hl=en",
+    demoLabel: "Google Play",
+  },
+  {
+    imgPath: qarttbusiness,
+    company: "Anora.Dev · Google Play & App Store",
+    title: "Qartt Business (Vendor)",
+    description:
+      "Vendor app for merchants in Nigeria to upload products, manage inventory and pricing, process orders and track store activity. I built the vendor workflows and order-management features.",
+    tags: ["React Native", "TypeScript", "Expo", "REST APIs"],
+    demoLink: "https://apps.apple.com/ng/app/qartt-business/id6759817660",
+    demoLabel: "App Store",
+  },
+  {
+    imgPath: psa,
+    company: "Abia State Government · Google Play",
+    title: "PS Attendance",
+    description:
+      "Attendance management for public service employees in Abia State: morning check-in, evening sign-out and daily records. Location verification means attendance can only be logged from an authorised workplace, and access is restricted to verified staff.",
+    tags: ["React Native", "Expo", "Geolocation", "Role-based access"],
+    demoLink:
+      "https://play.google.com/store/apps/details?id=com.savic3916.Attendanceapp&hl=en",
+    demoLabel: "Google Play",
+  },
+  {
+    imgPath: customer,
+    company: "Pineapp Solutions · grohh suite · Google Play",
+    title: "grohh MyMarket (Customer)",
+    description:
+      "Customer app where shoppers browse products and services from businesses in the grohh ecosystem, place orders, request delivery, pay and get discounts, with live order tracking and push alerts.",
+    tags: ["React Native", "Firebase", "FCM", "React Query"],
+    demoLink:
+      "https://play.google.com/store/apps/details?id=com.pinebusinessgrow.pgbcustomer&hl=en",
+    demoLabel: "Google Play",
+  },
+  {
+    company: "Pineapp Solutions · grohh suite",
+    title: "grohh Sales (POS)",
+    description:
+      "Point-of-sale app for in-store sales with Nomba POS terminal integration, streamlining payments and reducing manual processing errors. Orders and inventory sync in real time with the rest of the suite.",
+    tags: ["React Native", "Nomba POS", "Firebase", "Redux Toolkit"],
+  },
+  {
+    imgPath: kitchen,
+    company: "Pineapp Solutions · grohh suite · Google Play",
+    title: "grohh Storerunner (Kitchen)",
+    description:
+      "Real-time kitchen app: staff see incoming orders, approve them, mark them Ready and finally Completed on pickup. Built on Firebase sync to handle 200–800+ orders a day.",
+    tags: ["React Native", "Firebase", "Real-time sync"],
+    demoLink:
+      "https://play.google.com/store/apps/details?id=com.pinebusinessgrow.kitchen&hl=en",
+    demoLabel: "Google Play",
+  },
+  {
+    imgPath: driver,
+    company: "Pineapp Solutions · grohh suite · Google Play",
+    title: "grohh Driver",
+    description:
+      "Delivery app for drivers to receive requests, view routes and update delivery status in real time, connected to the Logistics app so businesses can track every delivery.",
+    tags: ["React Native", "Firebase", "FCM"],
+    demoLink:
+      "https://play.google.com/store/apps/details?id=com.pinedriver.driver&hl=en",
+    demoLabel: "Google Play",
+  },
+  {
+    imgPath: logistics,
+    company: "Pineapp Solutions · grohh suite · Google Play",
+    title: "grohh Logistics",
+    description:
+      "Fleet management app for logistics business owners to manage drivers, vehicles, freight and deliveries in real time, working together with the Driver app.",
+    tags: ["React Native", "Firebase", "Redux Toolkit"],
+    demoLink: "https://play.google.com/store/apps/details?id=com.pbg.logistic&hl=en",
+    demoLabel: "Google Play",
+  },
+  {
+    company: "Open source",
+    title: "Placewise",
+    description:
+      "React Native real-estate app for buying, selling and renting homes, with property browsing, quick listing creation and direct chat between buyers and sellers.",
+    tags: ["React Native", "TypeScript"],
+    ghLink: "https://github.com/Savic3916/PLACEWISE",
+  },
+];
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -19,79 +111,15 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          10 apps live in the stores. Here's what I've shipped, and what I did
+          on each.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={kitchen}
-              isBlog={false}
-              title="PBG Kitchen"
-              description="Pine Business Grow – Kitchen App is a simple and efficient tool designed to help kitchen staff manage customer orders in real time. Whether you're part of a restaurant, café, or food business, this app makes it easy to track orders from start to finish.With a clean and fast interface, kitchen teams can view incoming orders, approve them, update the order status to “Ready”, and finally mark them as Completed when customers arrive to pick up their meals. No confusion, no delays — everything stays organized."
-              // ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://play.google.com/store/apps/details?id=com.pinebusinessgrow.kitchen&hl=en"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={customer}
-              isBlog={false}
-              title="PBG Customer"
-              description="Pine Business Grow – Customer App is a mobile app that allows customers to see and buy products and services from businesses in the Pine Business Grow ecosystem. Businesses upload their products and services from their merchant dashboard, and customers can see them instantly in the app. With the app, customers can browse products, place orders, request delivery, make payments, and get discounts in real time. The app is designed to make shopping easy, fast, and convenient."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://play.google.com/store/apps/details?id=com.pinebusinessgrow.pgbcustomer&hl=en"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={driver}
-              isBlog={false}
-              title="PBG Driver"
-              description="PBG Driver (Pine Driver) is a mobile app that helps drivers manage and complete deliveries on the Pine Business Grow platform. Drivers can receive delivery requests, view routes, and update the delivery status in real time. The app also connects with the Pine Logistics system so businesses can track drivers and monitor deliveries easily. Pine Driver is designed to make deliveries simple, fast, and organized for drivers."
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://play.google.com/store/apps/details?id=com.pinedriver.driver&hl=en"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={logistics}
-              isBlog={false}
-              title="PBG Logistics"
-              description="Pine Logistics is a mobile app built for logistics business owners on the Pine Business Grow platform. The app helps businesses manage fleets, drivers, freight, and deliveries in real time. It works together with the Pine Driver app, allowing businesses to track drivers, monitor vehicles, and manage deliveries more easily. Pine Logistics is designed to help logistics businesses run their operations smoothly and stay organized."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://play.google.com/store/apps/details?id=com.pbg.logistic&hl=en"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={qartt}
-              isBlog={false}
-              title="Qartt (iOS & Android)"
-              description="Qartt is a cross-border marketplace that enables users to discover and purchase a wide range of authentic African products without the high international fees typically associated with cross-border shopping. The app provides a seamless shopping experience with secure authentication, product browsing, order management, and a modern, user-friendly interface." // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://play.google.com/store/apps/details?id=me.qartt.buyer&hl=en"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={qarttbusiness}
-              isBlog={false}
-              title="Qartt Business (iOS & Android)"
-              description="Qartt Business is a cross-platform mobile app built with React Native that helps merchants manage their online stores. It enables sellers to upload products, manage inventory and pricing, process orders, and track store activity through a secure, user-friendly interface."              demoLink="https://apps.apple.com/ng/app/qartt-business/id6759817660"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={psa}
-              isBlog={false}
-              title="PS Attendance"
-              description="PS Attendance is a mobile application designed to streamline attendance management for public service employees in Abia State, Nigeria. The app enables authorized employees to record their daily attendance through workplace check-in and check-out, helping improve accountability and maintain accurate attendance records. Built with React Native and Expo, the application provides a simple, user-friendly interface and supports location-based verification to help validate attendance where required."
-              demoLink="https://play.google.com/store/apps/details?id=com.savic3916.Attendanceapp&hl=en"
-            /> 
+          {projects.map((project) => (
+            <Col md={4} className="project-card" key={project.title}>
+              <ProjectCard isBlog={false} {...project} />
             </Col>
+          ))}
         </Row>
       </Container>
     </Container>

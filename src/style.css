@@ -937,3 +937,15 @@ button:focus {
   border: 1px solid rgba(199, 112, 240, 0.5);
   background: rgba(98, 54, 134, 0.25);
 }
+
+.project-company {
+  margin-bottom: 6px;
+  font-size: 0.8em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--imp-text-color);
+}
+
+.project-tags {
+  margin-bottom: 16px;
+}
