@@ -14,10 +14,11 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 
-import { hireMeLink } from "../utils/hire";
+import { useContact } from "./ContactModal";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
+  const { openContact } = useContact();
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -92,7 +93,12 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href={hireMeLink}
+                as="button"
+                className="nav-contact-btn"
+                onClick={() => {
+                  updateExpanded(false);
+                  openContact();
+                }}
               >
                 <AiOutlineMail style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>

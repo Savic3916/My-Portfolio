@@ -1249,3 +1249,87 @@ h1, h2, h3, h4 {
   position: relative;
   z-index: 2;
 }
+
+/* --------- */
+/* Contact modal */
+/* --------- */
+.nav-contact-btn {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.contact-modal .modal-content {
+  background: #150d24;
+  color: #fff;
+  border: 1px solid rgba(199, 112, 240, 0.35);
+  border-radius: 16px;
+}
+
+.contact-modal .modal-header {
+  border-bottom: 1px solid rgba(199, 112, 240, 0.2);
+}
+
+.contact-lead {
+  color: #d9cde6;
+  font-size: 0.95em;
+}
+
+.contact-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 18px 0;
+}
+
+.contact-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9em;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #7b3fb5, #5a2d82);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-option:hover {
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(141, 75, 204, 0.4);
+}
+
+.contact-copy {
+  font-size: 0.85em;
+  color: #b9a6cc;
+}
+
+.contact-copy-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.contact-copy-row button {
+  flex: 1;
+  padding: 8px;
+  color: #fff;
+  font-family: inherit;
+  background: transparent;
+  border: 1px solid rgba(199, 112, 240, 0.5);
+  border-radius: 8px;
+}
+
+.contact-copy-row button:hover {
+  background: rgba(98, 54, 134, 0.4);
+}
+
+@media (max-width: 480px) {
+  .contact-options {
+    grid-template-columns: 1fr;
+  }
+}

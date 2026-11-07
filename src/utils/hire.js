@@ -1,8 +1,8 @@
-const TO = "savic3916@gmail.com";
+export const EMAIL = "savic3916@gmail.com";
 
-const SUBJECT = "Opportunity for React Native Engineer - Akpan Victor";
+export const SUBJECT = "Opportunity for React Native Engineer - Akpan Victor";
 
-const BODY = `Hello Victor,
+export const BODY = `Hello Victor,
 
 I came across your portfolio and I'm impressed by your work as a React Native engineer, especially the logistics and POS suite and the apps you've shipped to Google Play and the App Store.
 
@@ -24,8 +24,12 @@ Best regards,
 [Your company]
 [Phone / LinkedIn]`;
 
-// Opens the visitor's default mail app with a pre-filled message addressed to Victor.
-export const hireMeLink =
-  `mailto:${TO}` +
-  `?subject=${encodeURIComponent(SUBJECT)}` +
-  `&body=${encodeURIComponent(BODY)}`;
+const s = encodeURIComponent(SUBJECT);
+const b = encodeURIComponent(BODY);
+const to = encodeURIComponent(EMAIL);
+
+// Every link below is already addressed to Victor with the message filled in.
+export const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${to}&su=${s}&body=${b}`;
+export const outlookLink = `https://outlook.live.com/mail/0/deeplink/compose?to=${to}&subject=${s}&body=${b}`;
+export const yahooLink = `https://compose.mail.yahoo.com/?to=${to}&subj=${s}&body=${b}`;
+export const mailtoLink = `mailto:${EMAIL}?subject=${s}&body=${b}`;

@@ -7,7 +7,7 @@ import Type from "./Type";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { AiOutlineMail, AiOutlineDownload } from "react-icons/ai";
-import { hireMeLink } from "../../utils/hire";
+import { useContact } from "../ContactModal";
 import pdf from "../../Assets/Akpan_Victor.pdf";
 import {
   AiFillGithub,
@@ -16,6 +16,7 @@ import {
 } from "react-icons/ai";
 
 function Home() {
+  const { openContact } = useContact();
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -51,7 +52,7 @@ function Home() {
               <div className="home-cta">
                 <Button
                   variant="primary"
-                  href={hireMeLink}
+                  onClick={openContact}
                   className="cta-btn"
                 >
                   <AiOutlineMail /> &nbsp;Hire Me

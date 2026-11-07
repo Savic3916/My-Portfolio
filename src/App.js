@@ -12,6 +12,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
+import { ContactProvider } from "./components/ContactModal";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
@@ -30,6 +31,7 @@ function App() {
 
   return (
     <Router>
+      <ContactProvider>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -43,6 +45,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
+      </ContactProvider>
     </Router>
   );
 }
