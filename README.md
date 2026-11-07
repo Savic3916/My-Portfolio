@@ -1,76 +1,66 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  Akpan Victor · Portfolio<br/>
+  <sub>React Native Engineer</sub>
 </h2>
+
+<p align="center">
+  <a href="mailto:savic3916@gmail.com">Email</a> &nbsp;·&nbsp;
+  <a href="https://github.com/Savic3916">GitHub</a> &nbsp;·&nbsp;
+  <a href="https://x.com/I_am_SAVIC">X</a> &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/i_am_savic_/">Instagram</a>
+</p>
+
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
-
-<br/>
-
-<center>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-</center>
+</div>
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+## About
 
-## TL;DR
+This is my personal portfolio. It showcases the mobile apps I have built and shipped, my work experience, my technical skills and my resume.
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+I'm a React Native engineer with 6 years of experience. I have 10 apps live on Google Play and the App Store, including a logistics and POS suite that handles 800+ orders a day.
 
 ## Built With
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
-
-This project was built using these technologies.
-
 - React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+- React-Bootstrap and CSS3
+- react-tsparticles, react-parallax-tilt and typewriter-effect
 
 ## Features
 
-**📖 Multi-Page Layout**
-
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
-
-**📱 Fully Responsive**
+- 📖 Multi-page layout: Home, About, Projects and Resume
+- 🎨 Modern, responsive design that works on phones, tablets and desktops
+- 📬 One-click "Hire Me" button that opens a pre-filled email to me
+- 📄 Downloadable CV
 
 ## Getting Started
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+You need `node.js` and `git` installed.
 
-## 🛠 Installation and Setup Instructions
+```bash
+git clone https://github.com/Savic3916/My-Portfolio.git
+cd My-Portfolio
+npm install
+npm start
+```
 
-1. Installation: `npm install`
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page reloads when you edit files.
 
-2. In the project directory, you can run: `npm start`
+To create a production build, run `npm run build`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+## Customising
 
-## Usage Instructions
+All page content lives in `src/components/`. The hire-me email template is in `src/utils/hire.js`.
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+## Support my work
 
-### Show your support
+If my work has helped or inspired you, you can show some love here:
 
-Give a ⭐ if you like this website!
+<a href="https://selar.com/showlove/savic" target="_blank">💜 Show love on Selar</a>
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+## Contact
+
+Open to remote roles and contract work: [savic3916@gmail.com](mailto:savic3916@gmail.com)
