@@ -1220,3 +1220,22 @@ h1, h2, h3, h4 {
 @media (prefers-reduced-motion: reduce) {
   .btn, .stat-card, .project-card-view, .wave { transition: none; animation: none; }
 }
+
+/* Badge sits on the same line the photo starts */
+.home-header {
+  padding-top: 0 !important;
+}
+
+.hero-badge {
+  margin: 0 0 18px 45px;
+}
+
+.hero-photo-col {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .hero-badge {
+    margin-left: 15px;
+  }
+}

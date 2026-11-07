@@ -22,6 +22,9 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
+              <span className="availability-badge hero-badge">
+                <span className="availability-dot" /> Available for remote work
+              </span>
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -65,10 +68,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <span className="availability-badge">
-                <span className="availability-dot" /> Available for remote work
-              </span>
+            <Col md={5} className="hero-photo-col">
               <div className="hero-photo-wrap">
                 <div className="hero-photo-frame">
                   <img
