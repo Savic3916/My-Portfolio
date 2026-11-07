@@ -14,6 +14,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 
+import { hireMeLink } from "../utils/hire";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -91,7 +92,9 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="mailto:savic3916@gmail.com?subject=Opportunity for Akpan Victor"
+                href={hireMeLink}
+                target="_blank"
+                rel="noreferrer"
               >
                 <AiOutlineMail style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>

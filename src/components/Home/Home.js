@@ -7,6 +7,7 @@ import Type from "./Type";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { AiOutlineMail, AiOutlineDownload } from "react-icons/ai";
+import { hireMeLink } from "../../utils/hire";
 import pdf from "../../Assets/Akpan_Victor.pdf";
 import {
   AiFillGithub,
@@ -50,7 +51,9 @@ function Home() {
               <div className="home-cta">
                 <Button
                   variant="primary"
-                  href="mailto:savic3916@gmail.com?subject=Opportunity for Akpan Victor"
+                  href={hireMeLink}
+                  target="_blank"
+                  rel="noreferrer"
                   className="cta-btn"
                 >
                   <AiOutlineMail /> &nbsp;Hire Me
