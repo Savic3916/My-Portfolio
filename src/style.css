@@ -1333,3 +1333,121 @@ h1, h2, h3, h4 {
     grid-template-columns: 1fr;
   }
 }
+
+/* --------- */
+/* Mobile layout */
+/* --------- */
+@media (max-width: 767px) {
+  .home-content {
+    padding: 6rem 0 1rem !important;
+  }
+
+  .home-header {
+    text-align: center;
+  }
+
+  .hero-badge {
+    margin: 0 auto 16px;
+  }
+
+  .heading,
+  .heading-name,
+  .home-type,
+  .home-summary {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 1.6em !important;
+    padding-bottom: 6px !important;
+  }
+
+  .heading-name {
+    font-size: 2em !important;
+  }
+
+  /* Typewriter was absolutely positioned and overlapped following content */
+  .Typewriter__wrapper {
+    position: static !important;
+    font-size: 1.2em !important;
+  }
+
+  .home-type {
+    padding-top: 12px;
+    padding-bottom: 6px !important;
+  }
+
+  .home-summary {
+    font-size: 1em;
+  }
+
+  .home-cta {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 20px 15px 0;
+  }
+
+  .home-cta .cta-btn {
+    width: 100%;
+  }
+
+  .hero-photo-col {
+    margin-top: 40px;
+    padding-bottom: 10px;
+  }
+
+  .hero-photo-frame {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .stats-strip {
+    margin-top: 10px;
+  }
+
+  .stat-value {
+    font-size: 1.6em;
+  }
+
+  .stat-label {
+    font-size: 0.8em;
+  }
+
+  .home-about-description {
+    padding-top: 30px !important;
+    text-align: center;
+  }
+
+  .home-about-description h1 {
+    font-size: 1.8em !important;
+  }
+
+  .home-about-body {
+    padding-top: 20px;
+    font-size: 0.95em !important;
+    text-align: left;
+  }
+
+  .myAvtar {
+    padding-top: 1em !important;
+  }
+
+  .intro-photo {
+    max-width: 260px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .project-section,
+  .about-section,
+  .resume-section {
+    padding-top: 100px !important;
+  }
+
+  .footer h3 {
+    font-size: 0.85em;
+  }
+}
