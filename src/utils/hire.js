@@ -24,9 +24,8 @@ Best regards,
 [Your company]
 [Phone / LinkedIn]`;
 
-// Opens a pre-filled Gmail compose window in the browser, already addressed to Victor.
+// Opens the visitor's default mail app with a pre-filled message addressed to Victor.
 export const hireMeLink =
-  "https://mail.google.com/mail/?view=cm&fs=1" +
-  `&to=${encodeURIComponent(TO)}` +
-  `&su=${encodeURIComponent(SUBJECT)}` +
+  `mailto:${TO}` +
+  `?subject=${encodeURIComponent(SUBJECT)}` +
   `&body=${encodeURIComponent(BODY)}`;

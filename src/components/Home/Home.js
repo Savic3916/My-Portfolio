@@ -52,8 +52,6 @@ function Home() {
                 <Button
                   variant="primary"
                   href={hireMeLink}
-                  target="_blank"
-                  rel="noreferrer"
                   className="cta-btn"
                 >
                   <AiOutlineMail /> &nbsp;Hire Me

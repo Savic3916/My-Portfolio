@@ -93,8 +93,6 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 href={hireMeLink}
-                target="_blank"
-                rel="noreferrer"
               >
                 <AiOutlineMail style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
