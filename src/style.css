@@ -1017,3 +1017,39 @@ button:focus {
 .project-tags .tech-tag {
   white-space: nowrap;
 }
+
+/* --------- */
+/* Profile photo */
+/* --------- */
+.hero-photo-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-photo-frame {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  padding: 6px;
+  border-radius: 28px;
+  background: linear-gradient(145deg, #c770f0, #623686 55%, #e0457b);
+  box-shadow: 0 20px 60px rgba(120, 40, 160, 0.45);
+}
+
+.hero-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 23px;
+}
+
+.intro-photo {
+  border-radius: 24px;
+  border: 3px solid rgba(199, 112, 240, 0.6);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 20%;
+}
